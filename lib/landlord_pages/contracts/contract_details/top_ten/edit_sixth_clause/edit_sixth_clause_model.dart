@@ -1,0 +1,21 @@
+import '/flutter_flow/flutter_flow_util.dart';
+import 'edit_sixth_clause_widget.dart' show EditSixthClauseWidget;
+import 'package:flutter/material.dart';
+
+class EditSixthClauseModel extends FlutterFlowModel<EditSixthClauseWidget> {
+  ///  State fields for stateful widgets in this component.
+
+  // State field(s) for adminFee widget.
+  FocusNode? adminFeeFocusNode;
+  TextEditingController? adminFeeTextController;
+  String? Function(BuildContext, String?)? adminFeeTextControllerValidator;
+
+  @override
+  void initState(BuildContext context) {}
+
+  @override
+  void dispose() {
+    adminFeeFocusNode?.dispose();
+    adminFeeTextController?.dispose();
+  }
+}

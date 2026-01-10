@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "399978339865",
+    "project_id": "vader-ec542",
+    "storage_bucket": "vader-ec542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399978339865:android:2a155fe171bc44ea0fd488",
+        "android_client_info": {
+          "package_name": "com.mycompany.letit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD94Jsm3GBkyYrJfHeiHHJuvADyABBqduM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399978339865:android:0110094c901f75370fd488",
+        "android_client_info": {
+          "package_name": "com.mycompany.letitapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD94Jsm3GBkyYrJfHeiHHJuvADyABBqduM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

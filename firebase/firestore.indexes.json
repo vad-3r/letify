@@ -1,0 +1,484 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Portfolio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "portfolio_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcasts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "recipients",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "last_message_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Contract",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "contract_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Contract",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "contract_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tenants_linked",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Agent",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "role",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "owner",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Room",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "property_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "room_index",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "User",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_role",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "display_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tip_offs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Portfolio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "owners_list2",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "portfolio_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Contract",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tenants_linked",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Portfolio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "portfolio_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "owners_list2",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcasts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "group_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "recipients",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "last_message_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcasts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "unread_users",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "last_message_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "InfoBoard",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "audience",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "InfoBoard",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "User",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "employer",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "display_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Portfolio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "agents_linked",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "portfolio_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Landlord",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "agent_mananger",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcasts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sender_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "broadcast_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcast_Messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "broadcast_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sender",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "User",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "uid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "display_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcasts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sender_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "property_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "broadcast_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Property",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "property_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcast_Messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "broadcast_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Screening_Builder_Question",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "screening_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Contract_Builder_Main_Clause",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Contract_Id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Index",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Screening_Builder",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Portfolio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "landlord_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "agents_linked",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcasts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sender_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "num_of_recipients",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "recipients",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Broadcasts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sender_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "num_of_recipients",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tenant_info",
+      "fieldPath": "tenant_id",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tenant_info",
+      "fieldPath": "is_signed",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}
